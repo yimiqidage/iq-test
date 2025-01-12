@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": "n001",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "easy",
+      "text": "What number comes next? 2, 6, 12, 20, 30, ...",
+      "options": ["42", "40", "38", "36"],
+      "correctAnswer": 0,
+      "explanation": "Each difference increases by 2: (+4, +6, +8, +10, +12). So 30 + 12 = 42"
+    },
+    {
+      "id": "n002",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "medium",
+      "text": "What is the next number? 1, 4, 9, 16, 25, ...",
+      "options": ["30", "36", "42", "49"],
+      "correctAnswer": 1,
+      "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6². So next is 6² = 36"
+    },
+    {
+      "id": "n003",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "medium",
+      "text": "Find the next number: 3, 8, 15, 24, 35, ...",
+      "options": ["48", "46", "44", "42"],
+      "correctAnswer": 0,
+      "explanation": "Each term is n² + 2n, where n starts from 1. For n=7: 49 + 14 = 48"
+    },
+    {
+      "id": "n004",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "hard",
+      "text": "Continue the sequence: 2, 3, 5, 9, 17, ...",
+      "options": ["33", "31", "29", "27"],
+      "correctAnswer": 0,
+      "explanation": "Each number is doubled and subtract 1: (2×2)-1=3, (3×2)-1=5, (5×2)-1=9, (9×2)-1=17, (17×2)-1=33"
+    },
+    {
+      "id": "n005",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "medium",
+      "text": "What comes next? 4, 7, 12, 19, 28, ...",
+      "options": ["39", "38", "37", "36"],
+      "correctAnswer": 0,
+      "explanation": "The difference increases by 2 each time: +3, +5, +7, +9, +11. So 28 + 11 = 39"
+    },
+    {
+      "id": "n006",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "hard",
+      "text": "Complete the sequence: 1, 3, 7, 13, 21, ...",
+      "options": ["31", "33", "35", "37"],
+      "correctAnswer": 0,
+      "explanation": "Differences form the sequence +2, +4, +6, +8, +10. So 21 + 10 = 31"
+    },
+    {
+      "id": "n007",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "medium",
+      "text": "Find the next number: 5, 8, 13, 21, 34, ...",
+      "options": ["55", "54", "53", "52"],
+      "correctAnswer": 0,
+      "explanation": "Each number is the sum of the previous two numbers (Fibonacci-like): 8+13=21, 13+21=34, 21+34=55"
+    },
+    {
+      "id": "n008",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "hard",
+      "text": "What is the next term? 3, 6, 12, 24, 48, ...",
+      "options": ["96", "72", "84", "108"],
+      "correctAnswer": 0,
+      "explanation": "Each number is multiplied by 2: 3×2=6, 6×2=12, 12×2=24, 24×2=48, 48×2=96"
+    },
+    {
+      "id": "n009",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "medium",
+      "text": "Continue the pattern: 1, 4, 10, 22, 46, ...",
+      "options": ["94", "92", "90", "88"],
+      "correctAnswer": 0,
+      "explanation": "Each number is multiplied by 2 and then add 2: (1×2)+2=4, (4×2)+2=10, (10×2)+2=22, (22×2)+2=46, (46×2)+2=94"
+    },
+    {
+      "id": "n010",
+      "category": "Number Sequence",
+      "type": "text",
+      "difficulty": "hard",
+      "text": "What's the next number? 2, 6, 14, 30, 62, ...",
+      "options": ["126", "124", "128", "130"],
+      "correctAnswer": 0,
+      "explanation": "Each number is multiplied by 2 and add 2: (2×2)+2=6, (6×2)+2=14, (14×2)+2=30, (30×2)+2=62, (62×2)+2=126"
+    }
+  ]
+  }

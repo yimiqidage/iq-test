@@ -2,7 +2,7 @@
 
 # 获取当前时间，格式为YYYYMMDDHHMMSS
 current_time=$(date +"%Y%m%d%H%M%S")
-APP_PORT=3050
+APP_PORT=3070
 
 # 如果output文件夹存在，则备份
 if [ -d ".output" ]; then

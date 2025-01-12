@@ -1,6 +1,6 @@
 @echo off
 :: 设置工作目录
-set "WORKING_DIR=D:\workspace-github\nuxt3-new-project\unblur-image"
+set "WORKING_DIR=D:\workspace-github\nuxt3-new-project\iq-test"
 set "OUTPUT_DIR=%WORKING_DIR%\.output"
 set "ARCHIVE_FILE=%WORKING_DIR%\.output.zip"
 

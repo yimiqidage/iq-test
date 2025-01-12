@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # 设置变量
-PROJECT_DIR="/Users/yimiqidage/workspace-web/unblur-image"
+PROJECT_DIR="/Users/yimiqidage/workspace-web/iq-test"
 REMOTE_USER="root"  # 需要替换为实际的远程服务器用户名
 REMOTE_HOST="47.89.232.116"  # 需要替换为实际的服务器IP
-REMOTE_DIR="/app/aishengji/unblur-image"
+REMOTE_DIR="/app/aishengji/iq-test"
 
 # 输出颜色函数
 print_green() {
