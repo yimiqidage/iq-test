@@ -1,0 +1,71 @@
+{
+    "index": {
+        "title_keyword": "Localización",
+        "h1": "Traducción de Idiomas y Adaptación Cultural",
+        "title": "Servicios de Localización Expertos - Traducción de Idiomas y Adaptación Cultural",
+        "title_desc": "Ofreciendo servicios de localización de primera categoría, incluyendo traducción de sitios web, software y documentos, garantizando adaptación cultural y relevancia de mercado para una integración empresarial global sin problemas.",
+        "button": "Localizar",
+        "faq": "Preguntas Frecuentes",
+        "q1": "¿Qué significa localización?",
+        "a1": "La localización es el proceso de adaptar un producto, servicio o contenido para satisfacer las necesidades culturales, lingüísticas y específicas de un mercado o región objetivo. Va más allá de la traducción al incorporar matices locales para garantizar relevancia y atractivo.",
+        "q2": "¿Cuál es un ejemplo de localización?",
+        "a2": "Un ejemplo clásico de localización es una marca global adaptando su publicidad para diferentes mercados. Esto podría incluir cambiar el idioma, las imágenes y las referencias culturales en una campaña publicitaria para resonar con cada audiencia específica.",
+        "q3": "¿Qué es la localización en los negocios?",
+        "a3": "En los negocios, la localización se refiere a la estrategia de adaptar las ofertas de una empresa para satisfacer diferentes idiomas, matices culturales y expectativas en varios mercados. Esto mejora la experiencia del usuario y puede llevar a una mayor satisfacción y fidelidad del cliente.",
+        "q4": "¿Qué es una estrategia de localización?",
+        "a4": "Una estrategia de localización implica planificar e implementar prácticas para adaptar los productos o servicios de su empresa a nuevos mercados culturales y lingüísticos. Incluye traducción de idiomas, adaptación cultural y modificaciones en las estrategias de marketing y operativas.",
+        "q5": "¿Por qué necesitamos localización?",
+        "a5": "La localización es esencial para conectarse con audiencias globales de manera significativa. Garantiza que los productos y el contenido sean culturalmente relevantes, comprensibles y atractivos, lo que aumenta su efectividad y puede impulsar el crecimiento internacional.",
+        "q6": "¿Quién necesita localización?",
+        "a6": "La localización es crucial para cualquier empresa u organización que busque expandir su alcance más allá de su mercado nativo. Esto incluye corporaciones multinacionales, sitios de comercio electrónico, creadores de contenido, desarrolladores de aplicaciones y, básicamente, cualquier entidad que busque interactuar con una audiencia global diversa.",
+        "q7": "¿Cómo se hace la localización?",
+        "a7": "La localización efectiva implica traducir el contenido al idioma objetivo, adaptar elementos culturales, considerar regulaciones locales y adaptar estrategias de marketing para ajustarse al mercado local. A menudo requiere colaboración con expertos locales o servicios de localización especializados.",
+        "q8": "¿Por qué la localización es mejor que la globalización?",
+        "a8": "La localización aborda las necesidades y preferencias específicas de los mercados locales, creando interacciones más personalizadas y efectivas con la audiencia. Mientras que la globalización busca un enfoque más amplio y uniforme, la localización construye conexiones más profundas con los clientes, lo que lleva a una mejor participación y fidelidad.",
+        "q9": "¿Cómo es diferente la localización de la globalización?",
+        "a9": "La globalización se trata de expandir las operaciones comerciales a escala global para una amplia audiencia, mientras que la localización se trata de adaptar estos enfoques globales a mercados locales específicos. La localización considera aspectos culturales, lingüísticos y regionales, mientras que la globalización a menudo adopta un enfoque más uniforme.",
+        "q10": "¿Es la localización parte del marketing?",
+        "a10": "Sí, la localización es una parte vital del marketing, especialmente en un contexto global. Incluye adaptar mensajes y tácticas de marketing para resonar con diferentes matices culturales, lingüísticos y regionales, haciéndolos más efectivos en mercados diversos.",
+        "q11": "¿Cuál es la diferencia entre internacionalización y localización?",
+        "a11": "La internacionalización es el proceso de diseñar productos, servicios o contenido para facilitar su adaptación a varios mercados. La localización, por otro lado, es el proceso real de adaptación, donde el producto o contenido se adapta específicamente para satisfacer las necesidades y preferencias de un mercado o región particular.",
+        "more": "Si tiene algún problema, pregunta o sugerencia, contáctenos a través de ",
+        "copy_rights": "Todos los derechos reservados.",
+        "home_link1": "Inicio",
+        "home_link2": "Localización de Texto",
+        "home_link3": "Localización de Documentos",
+        "home_link4": "Preguntas Frecuentes",
+        "home_link5": "Precios",
+        "log_out_successs": "Ha cerrado sesión",
+        "login_success": "Inicio de sesión exitoso",
+        "copied": "Copiado",
+        "copy": "Copiar",
+        "how_title": "¿Cómo traducir redacción publicitaria para la localización?",
+        "how_step1": "1. Seleccione el idioma que prefiera usar.",
+        "how_step2": "2. Haga clic en el botón 'Localizar' en la página.",
+        "how_step3": "3. Después de completar su selección, espere un momento. El sistema presentará automáticamente el contenido en el idioma elegido."
+    },
+    "common": {
+        "pay_success": "Pago exitoso"
+    },
+    "pricing": {
+        "title": "Precios de Traducción y Localización",
+        "title_desc": "Explora nuestros planes de precios competitivos para servicios de traducción y localización. Soluciones personalizadas para empresas de todos los tamaños para alcanzar eficazmente los mercados globales.",
+        "h2": "Precios",
+        "desc": "Elige un paquete"
+    },
+    "login": {
+      "title": "Iniciar Sesión",
+      "title_desc": "Accede a tu cuenta para gestionar tus proyectos de localización. Nuestra plataforma ofrece una integración perfecta para traducciones, seguimiento y soporte."
+    },
+    "register": {
+      "title": "Registrarse",
+      "title_desc": "Únete a nuestra plataforma hoy para comenzar la localización de tu contenido. Regístrate para acceder a servicios de traducción especializados, soporte experto y perspectivas del mercado global."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Localización",
+      "title_desc": "¿Tienes preguntas sobre los servicios de traducción y localización? Nuestra sección de preguntas frecuentes cubre todo, desde el alcance del servicio hasta los tiempos de entrega, para asegurar tu éxito global."
+    },
+    "check": {
+      "text_is_blank": "Por favor, introduce el contenido que necesitas traducir."
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build  --dotenv .env.production",
+    "dev": "nuxt dev --dotenv .env.development --port=3050",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/types": "^2.17.2",
+    "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tailwindcss/typography": "^0.5.14",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.4.19",
+    "nuxt": "^3.7.4",
+    "nuxt-primevue": "^0.2.2",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.679.0",
+    "@aws-sdk/s3-request-presigner": "^3.679.0",
+    "@headlessui/vue": "^1.7.17",
+    "@heroicons/vue": "^2.1.1",
+    "@nuxt/content": "^2.13.2",
+    "canvas-confetti": "^1.9.3",
+    "file-saver": "^2.0.5",
+    "html2canvas-pro": "^v1.5.0",
+    "jszip": "^3.10.1",
+    "nuxt-vue3-google-signin": "^0.0.11",
+    "pinia": "^2.1.7",
+    "primevue": "^3.45.0"
+  }
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /_nuxt/
+Disallow: /Users/
+Disallow: /api/_content
+
+
+User-agent: ClaudeBot
+Disallow: /

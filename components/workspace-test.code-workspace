@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../../../workspace-test"
+		},
+		{
+			"path": "../../../../workspace-tailwind"
+		},
+		{
+			"path": "../../../../workspace-vercel/alt-tag-generator"
+		},
+		{
+			"path": "../../../../workspace-vercel/examples-main/app-directory/i18n"
+		},
+		{
+			"path": "../../../../workspace-web/chrome-fe"
+		},
+		{
+			"path": "../../../../workspace-nuxt"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../workspace-nuxt3"
+		},
+		{
+			"path": "../../../../workspace-web"
+		}
+	],
+	"settings": {
+		"codesandbox.environment": "production",
+		"i18n-ally.localesPaths": []
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "index": {
+        "title": "Chào mừng đến với Cửa hàng GPTs",
+        "title_desc": "Khám phá một loạt các công cụ GPTs đa dạng: Tùy chỉnh Trải nghiệm Trò chuyện của bạn",
+        "start": "Bắt đầu",
+        "watch_demo": "Xem Demo",
+        "faq": "Câu hỏi Thường gặp",
+        "q1": "GPTs là gì?",
+        "a1": "GPTs là các phiên bản tùy chỉnh của ChatGPT, cho phép người dùng cá nhân hóa cài đặt và mở rộng chức năng dựa trên nhu cầu và tình huống cụ thể.",
+        "q2": "Làm thế nào để tôi tạo GPT của riêng mình?",
+        "a2": "Bất kỳ ai cũng có thể dễ dàng tạo GPT của riêng mình mà không cần kiến thức về lập trình. Điều này bao gồm việc đưa ra hướng dẫn và kiến thức bổ sung thông qua giao diện trò chuyện và chọn các khả năng của nó, như tìm kiếm web, tạo hình ảnh hoặc phân tích dữ liệu.",
+        "q3": "Cửa hàng GPT là gì?",
+        "a3": "Cửa hàng GPT là một nền tảng nơi người dùng có thể chia sẻ các tác phẩm GPT của họ. Nó giới thiệu các tác phẩm của nhà xây dựng đã được xác minh và cho phép người sáng tạo kiếm thu nhập dựa trên việc sử dụng GPTs của họ.",
+        "q4": "Quyền riêng tư và an ninh được đảm bảo như thế nào khi sử dụng GPTs?",
+        "a4": "OpenAI đặt ra tầm quan trọng cao cho quyền riêng tư và an ninh trong việc phát triển GPTs. Tương tác với GPTs không được chia sẻ với các nhà xây dựng, và người dùng có quyền kiểm soát việc chia sẻ dữ liệu với các API bên thứ ba.",
+        "more": "Không tìm thấy câu trả lời bạn đang tìm kiếm? Liên hệ với đội ngũ hỗ trợ khách hàng của chúng tôi",
+        "copy": "Bản quyền được bảo lưu. dữ liệu từ",
+        "home": "trang chủ",
+        "gpts_store": "Tất cả Cửa hàng GPTs"
+    },
+    "store": {
+        "title": "Cửa hàng GPTs",
+        "title_desc": "Chúng tôi đã cẩn thận biên soạn và tập hợp một bộ sưu tập hơn 2000 công cụ GPTs đa năng, giúp bạn dễ dàng tìm và chọn GPTs phù hợp với nhu cầu cụ thể của mình.",
+        "pre_page": "trang trước",
+        "next_page": "trang sau",
+        "head_title": "Khám phá Thêm Sản phẩm AI Sáng tạo",
+        "head_desc": "Chào mừng đến với Cửa hàng GPTS, điểm đến cuối cùng của bạn cho các sản phẩm AI tiên tiến. Tại đây, chúng tôi cung cấp một bộ sưu tập rộng lớn các sản phẩm GPTS mới nhất, bao gồm các giải pháp thông minh hiệu quả, công cụ học tập tiên tiến và công nghệ sáng tạo. Dù bạn đang tìm cách tăng cường hiệu quả trong doanh nghiệp hay tìm kiếm lối sống thông minh hơn cho mục đích cá nhân, Cửa hàng GPTS cam kết tích hợp công nghệ AI mới nhất vào cuộc sống hàng ngày của bạn. Khám phá thêm và bắt đầu chương mới của cuộc sống thông minh với chúng tôi ngày hôm nay"
+    },
+    "detail": {
+        "store_name": "tên cửa hàng GPTS",
+        "author": "tác giả",
+        "welcome": "thông điệp chào mừng",
+        "prompt": "khởi đầu nhắc nhở",
+        "store_description": "mô tả",
+        "store_url":"Địa chỉ mạng"
+    }
+}

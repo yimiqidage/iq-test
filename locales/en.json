@@ -1,0 +1,193 @@
+{
+  "index": {
+    "title_keyword": "Unblur image",
+    "h1": "Unblur image",
+    "h1_desc": "Unblur image online free",
+    "title": "Unblur image online free",
+    "title_desc": "Splitter Image Online offers a free, easy-to-use tool for splitting images into multiple parts. Upload, customize, and download your split images instantly. Perfect for creating collages, social media posts, and more.",
+    "button": " Split Image",
+    "button_download": "Download Zip",
+    "button_clear": "Clear All",
+    "split_options":"Split options",
+    "faq": "Frequently Asked Questions",
+    "more_music":"Discover More AI Music",
+    
+    "q1": "What is SplitterImage.online?",
+    "a1": "SplitterImage.online is an online tool that helps users split uploaded images into a specified number of rows and columns.",
+    
+    "q2": "How do I use SplitterImage.online?",
+    "a2": "Follow these steps: 1. Upload the image you want to split. 2. Specify the number of rows and columns. 3. Click the \"Split\" button. 4. Download the split images.",
+    
+    "q3": "What image formats are supported?",
+    "a3": "We support common image formats including JPG, PNG, GIF, and others.",
+    
+    "q4": "Is there a file size limit?",
+    "a4": "Yes, to ensure server performance, we limit uploaded images to a maximum size of 10MB.",
+    
+    "q5": "Will the quality of the split images be reduced?",
+    "a5": "We strive to maintain the original image quality, but there might be slight quality loss depending on the split size.",
+    
+    "q6": "Can I customize the size of the splits?",
+    "a6": "Currently, you can specify the number of rows and columns. We're considering adding a feature for custom size splitting in the future.",
+    
+    "q7": "Are the split images saved on your servers?",
+    "a7": "No, we don't store your original or split images. All data is deleted after processing is complete.",
+    
+    "q8": "Is there a fee to use SplitterImage.online?",
+    "a8": "Currently, our service is free. If we introduce premium features in the future, we'll notify our users.",
+
+    "q9": "Can I process multiple images in bulk?",
+    "a9": "At the moment, we only support processing one image at a time. Bulk processing is a feature we're working on.",
+
+
+    "more": "If you have any issues, questions or suggestions please contact us via ",
+    "copy_rights": "All rights reserved.",
+    "home_link1": "home",
+    "home_link2": "AVIF to JPG",
+    "home_link3": "Discover AI Music",
+    "home_link4": "FAQ",
+    "home_link5": "Pricing",
+    "home_link6": "Member",
+    "home_link7": "Blog",
+    "log_out_successs": "You have logged out",
+    "login_success": "Login successful",
+    "custom_mode": "Describe the music style and theme you prefer.",
+    "instrumental": "Create a song without lyrics.",
+    "how_title": "How to translate copywriting for localization ?",
+    "how_step1": "1. Select the language you prefer to use.",
+    "how_step2": "2. Click on the 'Localize' button on the page.",
+    "how_step3": "3. After completing your selection, please wait for a moment. The system will automatically present the content in the chosen language."
+  },
+  "common": {
+    "pay_success": "Payment successful",
+    "pre_page": "Previous",
+    "next_page": "Next"
+  },
+  "pricing": {
+    "title": "Pricing ",
+    "title_desc": "Unblur Image Pricing Plans and Features",
+    "h2": "Unblur Image Pricing Plans and Features"
+  },
+  "login": {
+    "title": "Login",
+    "title_desc": "Please log in to continue"
+  },
+  "register": {
+    "title": "Sign Up",
+    "title_desc": "Join our platform to start localizing your content today. Sign up to access specialized translation services, expert support, and global market insights."
+  },
+  "my": {
+    "left_count": "Remaining uses:",
+    "expire_time": "Expiration date:"
+   
+  },
+  "faq": {
+    "title": "Splitter Image Online FAQ",
+    "title_desc": "Easily Split and Edit Your Images"
+    
+  },
+  "check": {
+    "text_is_blank": "Please enter the content you need to translate."
+  },
+  "membership": {
+    "info": "Membership Info ",
+    "active": "Active",
+    "expired": "Expired",
+    "validUntil": "Valid until:",
+    "expiredOn": "Expired on:",
+    "remainingUses": "Remaining uses:",
+    "noUsesLeft": "No uses left",
+    "benefits": "Membership Benefits:",
+    "renew": "Renew Membership",
+    "loading": "Loading membership data...",
+    "benefitAccess": "Access to all premium content",
+    "benefitSupport": "24/7 customer support",
+    "benefitAdFree": "Ad-free experience",
+    "benefitExclusive": "Exclusive member-only features"
+  },
+  "unblur_image": {
+    "title": "Unblur Image Online - Professional Photo Enhancement Tool",
+    "h1": "Unblur Image Online",
+    "h1_desc": "Experience the most advanced unblur image technology available online. Our professional unblur image tool helps you transform blurry photos into crystal-clear images with just one click.",
+    "pricing":{
+      "faq":{
+        "header": "Unblur Image Online Service - Pricing FAQ",
+        "q1": "What pricing plans are available for the unblur image service?",
+        "a1": "We offer three pricing tiers for our image unblurring service: Free Plan ($0), Basic Plan ($9.99), and Premium Plan ($19.99). All paid plans are one-time payments, no subscription needed. We highly recommend the Premium Plan for users who need to unblur multiple images regularly.",
+        "q2": "What are the limitations of the Free Plan?",
+        "a2": "The Free Plan allows you to unblur 20 images for free. Please note that we may adjust the free usage quota at any time without prior notice. We recommend upgrading to a paid plan after testing our image unblurring technology.",
+        "q3": "What's included in the Basic Plan ($9.99)?",
+        "a3": "The Basic Plan is a one-time payment of $9.99, which gives you 500 credits. These credits never expire and can be used to unblur images whenever you need. Each image unblurring process uses one credit.",
+        "q4": "What are the advantages of the Premium Plan ($19.99)?",
+        "a4": "The Premium Plan is our most popular option for users who need to unblur images frequently. For a one-time payment of $19.99, you get 1500 credits - triple the credits of the Basic Plan at a better value. These credits never expire and can be used to unblur any image at your own pace.",
+        "q5": "Do credits expire?",
+        "a5": "No. Whether you purchase the Basic or Premium Plan, your image unblurring credits never expire. You can use them at your own pace and according to your needs, without any time constraints.",
+        "q6": "What payment methods do you accept?",
+        "a6": "We currently accept PayPal for all our image unblurring service plans. PayPal provides a secure and reliable international payment method with buyer protection to ensure your transaction safety.",
+        "q7": "Why do you recommend the Premium Plan?",
+        "a7": "We recommend the Premium Plan ($19.99) for regular users of our unblur image service.",
+        "q8": "Do I need to renew my plan periodically?",
+        "a8": "No. Our image unblurring service uses a one-time payment model where you pay once to receive your credits. These credits never expire and can be used until they're depleted, with no subscription or renewal needed. Once you've used all your credits for unblurring images, you can choose to purchase more at any time."
+    }
+    },
+    "faq": {
+      "header":"Unblur Image Online FAQ",
+      "q1": "What is the Unblur Image tool?",
+      "a1": "The Unblur Image tool is an advanced AI-powered utility that helps users enhance and sharpen blurry images. It's designed to improve image quality regardless of the cause - whether from camera shake, focus issues, or low resolution.",
+      "q2": "How does the Unblur Image tool work?",
+      "a2": "Our Unblur Image tool uses advanced AI algorithms to analyze and process your images. Simply upload your blurry image, wait a few seconds for the AI processing, and download your enhanced, sharper result. The tool maintains the original image quality while improving clarity.",
+      "q3": "What are the main features of the Unblur Image tool?",
+      "a3": "The Unblur Image tool offers several key features: AI-powered image enhancement, Support for multiple image formats (JPG/JPEG, PNG, WEBP, BMP), Quick processing time, Free trial usage, No quality loss in output images, and User-friendly interface.",
+      "q4": "Are there any file size limitations for the unblur image tool?",
+      "a4": "Our free unblur image service supports files up to 10MB, suitable for most personal photos and social media content. For professional users who need to unblur larger images or process images in batch, our premium plans offer expanded file size limits up to 50MB per image. Each plan includes our advanced unblur image technology with additional professional features.",
+      "q5": "Do you store the processed images?",
+      "a5": "To protect your privacy, images are only temporarily stored during processing and are immediately deleted afterward. We do not keep any copies of your images.",
+      "q6": "What if the results aren't satisfactory?",
+      "a6": "Results may vary depending on factors such as original image quality, blur severity, resolution, and blur type. If you're not satisfied with the results, please contact us for assistance.",
+      "q7": "How can I get support?",
+      "a7": "You can reach our support team through the contact form. We aim to respond to all inquiries within 24 hours.",
+      "q8": "Do you offer refunds?",
+      "a8": "Yes, if you're not satisfied with our service, please contact us within 7 days of purchase for a refund.",
+      "q9": "What happens after I use up my trial credits?",
+      "a9": "Once you've used your trial credits, you can continue using the service by purchasing one of our premium plans. Visit our pricing page for more information.",
+      "q10": "Which image formats are supported?",
+      "a10": "We support all major image formats including JPG/JPEG, PNG, WEBP, and BMP files."
+    }
+  },
+  "avif_to_jpg": {
+    "title": "AVIF to JPG - Convert AVIF to JPG Online for Free",
+    "h1": "Free AVIF to JPG Converter - Convert AVIF to JPG Online Instantly",
+    "h1_desc": "Easily convert AVIF to JPG online with our free and fast AVIF to JPG converter. No downloads or installations required—just upload your AVIF files and get high-quality JPG images instantly.",
+    "faq": {
+      "header":"AVIF to JPG FAQ",
+      "q1": "What is the AVIF to JPG Converter?",
+      "a1": "The AVIF to JPG Converter is a free online tool that allows users to easily convert AVIF image files to JPG format directly in their web browser. It's designed to be simple, fast, and completely secure.",
+      "q2": "Is the AVIF to JPG Tool Available for Free?",
+      "a2": "Yes, the AVIF to JPG Converter is 100% free. There are no hidden fees, no required registrations, and no limitations on the number of conversions you can perform.",
+
+      "q3": "Are my images safe when using this tool?",
+      "a3": "Absolutely! The conversion process happens entirely on your local device. No images are uploaded to any server, ensuring complete privacy and data security.",
+
+      "q4": "What Browsers and Devices Support the AVIF to JPG Conversion Tool?",
+      "a4": "The converter works on all modern browsers, including Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, and Opera. It's compatible with desktop and mobile devices.",
+
+      "q5": "Will converting from AVIF to JPG affect image quality?",
+      "a5": "There may be a slight quality loss due to JPEG compression. However, the tool provides quality adjustment options to help you balance file size and image details.",
+
+      "q6": "What image sizes can I convert?",
+      "a6": "For optimal performance, we recommend converting images smaller than 20MB. Larger images may require more processing time.",
+
+      "q7": "How fast is the conversion process?",
+      "a7": "Since the conversion happens locally on your device, the speed depends on your computer's performance. Most images convert within seconds.",
+
+      "q8": "Do you offer batch conversion?",
+      "a8": "Batch conversion is not currently available but is planned for future updates. Currently, you can convert images one at a time.",
+
+      "q9": "Why should I use this AVIF to JPG Converter?",
+      "a9": "Our tool offers a unique combination of being completely free, requiring no registration, processing images locally for maximum security, and providing a quick and simple conversion experience.",
+
+      "q10": "How Do I Use the AVIF to JPG Converter?",
+      "a10": "Simply upload your AVIF image, choose your desired quality settings, and click 'Convert'. Your JPG image will be ready for download instantly."
+    }
+  }
+}
