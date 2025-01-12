@@ -1,71 +1,107 @@
-<!-- components/GradientFooter.vue -->
 <template>
-  <footer class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-8">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex flex-col items-center">
-        <div class="flex space-x-8 mb-6">
-          <NuxtLink
-            v-for="link in availableSocialLinks"
-            :key="link.name"
-            :to="link.url"
-            target="_blank"
-            class="hover:text-gray-200 hover:scale-110 transition-all duration-300"
-            :aria-label="link.name"
-          >
-            <img 
-              :src="link.iconUrl"
-              :alt="link.name"
-              class="w-6 h-6"
-              loading="lazy"
-            />
-          </NuxtLink>
+  <footer class="bg-white border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <!-- 主要内容区域 -->
+      <div class="flex flex-wrap -mx-4">
+        <!-- Products -->
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+          <h3 class="text-lg font-semibold text-gray-900 mb-6">
+            {{ $t('footer.products.title') }}
+          </h3>
+          <ul class="space-y-3">
+            <li v-for="(link, index) in localizedProducts" :key="index">
+              <NuxtLink
+                :to="link.url"
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 block"
+              >
+                {{ link.title }}
+              </NuxtLink>
+            </li>
+          </ul>
         </div>
-        <div class="text-center">
-          <p class="text-sm mb-2">{{ companyConfig.tagline }}</p>
-          <p class="text-sm opacity-75">
-            © {{ currentYear }} {{ companyConfig.name }}. 
-            {{ companyConfig.copyright }}
-          </p>
+        
+        <!-- Company -->
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+          <h3 class="text-lg font-semibold text-gray-900 mb-6">
+            {{ $t('footer.company.title') }}
+          </h3>
+          <ul class="space-y-3">
+            <li v-for="(link, index) in localizedCompany" :key="index">
+              <NuxtLink
+                :to="link.url"
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 block"
+              >
+                {{ link.title }}
+              </NuxtLink>
+            </li>
+          </ul>
         </div>
+
+        
+        
+        <!-- Friend Links -->
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+          <h3 class="text-lg font-semibold text-gray-900 mb-6">
+            {{ $t('footer.friendLinks.title') }}
+          </h3>
+          <ul class="space-y-3">
+            <li v-for="(link, index) in localizedFriendLinks" :key="index">
+              <a
+                :href="link.url"
+                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 inline-flex items-center"
+                :rel="link.noref ? 'nofollow noreferrer' : ''"
+                target="_blank"
+              >
+                {{ link.title }}
+                <svg
+                  class="w-4 h-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <p class="text-center text-gray-500 text-sm">
+          © {{ new Date().getFullYear() }} {{ domain }} {{ $t('footer.copyright') }}
+        </p>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts">
-// 获取运行时配置
-const config = useRuntimeConfig();
-const { company: companyConfig, social } = config.public;
+<script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
-// 社交媒体图标映射 - 使用实际的 CDN 地址
-const socialIcons = {
-  twitter: 'https://image.vyourtime.com/twitter-icon.svg',
-  linkedin: 'https://image.vyourtime.com/linkedin-icon.svg',
-  github: 'https://image.vyourtime.com/github-icon.svg',
-  youtube: 'https://image.vyourtime.com/youtube-icon.svg',
-  brandfetch: 'https://image.vyourtime.com/brandfetch-icon.svg?a',
-  friendlink: 'https://image.vyourtime.com/common.svg',
-  friendlink2: 'https://image.vyourtime.com/common.svg',
-} as const;
+const { t } = useI18n()
 
-// 根据配置生成可用的社交媒体链接
-const availableSocialLinks = computed(() => {
-  const links = [];
+const localizedProducts = computed(() => [
+  { title: t('footer.products.iqTest'), url: '/iq-test' },
+  { title: t('footer.products.iqTestFree'), url: '/iq-test' },
+])
 
-  for (const [platform, url] of Object.entries(social)) {
-    if (url) {  // 只有当 URL 不为空时才添加
-      const platformKey = platform.toLowerCase();
-      links.push({
-        name: platform.charAt(0).toUpperCase() + platform.slice(1),
-        url,
-        iconUrl: socialIcons[platformKey as keyof typeof socialIcons]
-      });
-    }
+const localizedCompany = computed(() => [
+  { title: t('footer.company.about'), url: '/company/about' },
+  { title: t('footer.company.contact'), url: '/company/contact' },
+  { title: t('footer.company.privacy'), url: '/company/privacy' },
+  { title: t('footer.company.terms'), url: '/company/terms' },
+])
+
+const localizedFriendLinks = computed(() => [
+  {
+    title: 'aiheron',
+    url: 'https://www.aiheron.com/',
+    noref: true
   }
+])
 
-  return links;
-});
-
-// 计算当前年份
-const currentYear = computed(() => new Date().getFullYear());
+const domain = useRuntimeConfig().public.domain.substring(8);
 </script>

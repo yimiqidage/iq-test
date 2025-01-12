@@ -9,11 +9,11 @@
           <!-- Test Overview -->
           <div class="grid md:grid-cols-3 gap-6 mb-8">
             <div class="bg-blue-50 p-6 rounded-lg text-center">
-              <div class="text-3xl font-bold text-blue-600 mb-2">40</div>
+              <div class="text-3xl font-bold text-blue-600 mb-2">30</div>
               <div class="text-gray-600">Questions</div>
             </div>
             <div class="bg-blue-50 p-6 rounded-lg text-center">
-              <div class="text-3xl font-bold text-blue-600 mb-2">45</div>
+              <div class="text-3xl font-bold text-blue-600 mb-2">30</div>
               <div class="text-gray-600">Minutes</div>
             </div>
             <div class="bg-blue-50 p-6 rounded-lg text-center">
@@ -28,11 +28,11 @@
             <div class="bg-gray-50 p-6 rounded-lg space-y-4">
               <div class="flex items-start gap-4">
                 <div class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0">1</div>
-                <p>The test consists of <strong>40 questions</strong> covering various aspects of intelligence including logical reasoning, pattern recognition, numerical sequences, and spatial visualization.</p>
+                <p>The test consists of <strong>30 questions</strong> covering various aspects of intelligence including logical reasoning, pattern recognition, numerical sequences, and spatial visualization.</p>
               </div>
               <div class="flex items-start gap-4">
                 <div class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0">2</div>
-                <p>You have <strong>45 minutes</strong> to complete the test. A timer will be displayed to help you track your remaining time.</p>
+                <p>You have <strong>30 minutes</strong> to complete the test. A timer will be displayed to help you track your remaining time.</p>
               </div>
               <div class="flex items-start gap-4">
                 <div class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0">3</div>

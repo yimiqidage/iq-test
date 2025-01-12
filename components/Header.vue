@@ -6,7 +6,7 @@
       <!-- Logo -->
       <div class="flex flex-shrink-0" style="max-width: 32px;">
         <NuxtLink to="/" class="-m-1.5 p-1.5 flex items-center">
-          <img class="h-8 w-8 ml-2" src="/favicon.svg" alt="unblur image icon" />
+          <img class="h-8 w-8 ml-2" src="/favicon.svg" alt="iq test icon" />
         </NuxtLink>
       </div>
 
@@ -27,7 +27,7 @@
       </div>
 
       <!-- Right aligned login/account button for desktop -->
-      <div class="flex flex-shrink-0 justify-end" style="max-width: 200px;">
+      <!-- <div class="flex flex-shrink-0 justify-end" style="max-width: 200px;">
         <div v-if="isLoginUser" class="hidden lg:flex min-h-full flex-1 justify-end">
           <MyAccount />
         </div>
@@ -36,7 +36,7 @@
             <GoogleLogin />
           </div>
         </ClientOnly>
-      </div>
+      </div> -->
 
       <!-- Mobile menu button -->
       <div class="flex lg:hidden">
@@ -77,12 +77,12 @@
           </div>
 
           <!-- 登录按钮在移动端菜单展开时居左显示 -->
-        <div v-if="!isLoginUser" class="flex">
+        <!-- <div v-if="!isLoginUser" class="flex">
           <GoogleLogin />
         </div>
         <div v-if="isLoginUser" class="flex">
           <MyAccount />
-        </div>
+        </div> -->
         
         </div>
       </div>
@@ -102,10 +102,9 @@ const isLoginUser = computed(() => userStore.isLoggedIn);
 const isMobileMenuOpen = ref(false);
 
 const menuItems = [
-  { name: t('index.title_keyword'), href: '/unblur-image', needLogin: false },
-  { name: t('index.home_link2'), href: '/avif-to-jpg', needLogin: false },
-  // { name: t('index.home_link4'), href: '/faq', needLogin: false },
-  { name: t('index.home_link5'), href: '/pricing', needLogin: false },
+  { name: t('index.home_link1'), href: '/', needLogin: false },
+  { name: t('index.title_keyword'), href: '/iq-test', needLogin: false },
+  { name: t('index.home_link4'), href: '/faq', needLogin: false },
   
   // { name: t('index.home_link6'), href: '/my', needLogin: true },
 

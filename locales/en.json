@@ -1,6 +1,6 @@
 {
   "index": {
-    "title_keyword": "Unblur image",
+    "title_keyword": "IQ Test",
     "h1": "Unblur image",
     "h1_desc": "Unblur image online free",
     "title": "Unblur image online free",
@@ -11,6 +11,8 @@
     "split_options":"Split options",
     "faq": "Frequently Asked Questions",
     "more_music":"Discover More AI Music",
+    
+   
     
     "q1": "What is SplitterImage.online?",
     "a1": "SplitterImage.online is an online tool that helps users split uploaded images into a specified number of rows and columns.",
@@ -42,12 +44,10 @@
 
     "more": "If you have any issues, questions or suggestions please contact us via ",
     "copy_rights": "All rights reserved.",
-    "home_link1": "home",
-    "home_link2": "AVIF to JPG",
-    "home_link3": "Discover AI Music",
+    "home_link1": "Home",
+    "home_link2": "IQ Test",
     "home_link4": "FAQ",
     "home_link5": "Pricing",
-    "home_link6": "Member",
     "home_link7": "Blog",
     "log_out_successs": "You have logged out",
     "login_success": "Login successful",
@@ -58,6 +58,25 @@
     "how_step2": "2. Click on the 'Localize' button on the page.",
     "how_step3": "3. After completing your selection, please wait for a moment. The system will automatically present the content in the chosen language."
   },
+  "footer": {
+        "products": {
+          "title": "Products",
+          "iqTest": "IQ Test",
+          "iqTestFree": "IQ Test Free Online"
+        },
+        "company": {
+          "title": "Company",
+          "about": "About Us",
+          "contact": "Contact",
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Service"
+        },
+        "friendLinks": {
+          "title": "Friend Links",
+          "partnerProgram": "Partner Program"
+        },
+        "copyright": "All rights reserved."
+      },
   "common": {
     "pay_success": "Payment successful",
     "pre_page": "Previous",
@@ -105,55 +124,7 @@
     "benefitAdFree": "Ad-free experience",
     "benefitExclusive": "Exclusive member-only features"
   },
-  "unblur_image": {
-    "title": "Unblur Image Online - Professional Photo Enhancement Tool",
-    "h1": "Unblur Image Online",
-    "h1_desc": "Experience the most advanced unblur image technology available online. Our professional unblur image tool helps you transform blurry photos into crystal-clear images with just one click.",
-    "pricing":{
-      "faq":{
-        "header": "Unblur Image Online Service - Pricing FAQ",
-        "q1": "What pricing plans are available for the unblur image service?",
-        "a1": "We offer three pricing tiers for our image unblurring service: Free Plan ($0), Basic Plan ($9.99), and Premium Plan ($19.99). All paid plans are one-time payments, no subscription needed. We highly recommend the Premium Plan for users who need to unblur multiple images regularly.",
-        "q2": "What are the limitations of the Free Plan?",
-        "a2": "The Free Plan allows you to unblur 20 images for free. Please note that we may adjust the free usage quota at any time without prior notice. We recommend upgrading to a paid plan after testing our image unblurring technology.",
-        "q3": "What's included in the Basic Plan ($9.99)?",
-        "a3": "The Basic Plan is a one-time payment of $9.99, which gives you 500 credits. These credits never expire and can be used to unblur images whenever you need. Each image unblurring process uses one credit.",
-        "q4": "What are the advantages of the Premium Plan ($19.99)?",
-        "a4": "The Premium Plan is our most popular option for users who need to unblur images frequently. For a one-time payment of $19.99, you get 1500 credits - triple the credits of the Basic Plan at a better value. These credits never expire and can be used to unblur any image at your own pace.",
-        "q5": "Do credits expire?",
-        "a5": "No. Whether you purchase the Basic or Premium Plan, your image unblurring credits never expire. You can use them at your own pace and according to your needs, without any time constraints.",
-        "q6": "What payment methods do you accept?",
-        "a6": "We currently accept PayPal for all our image unblurring service plans. PayPal provides a secure and reliable international payment method with buyer protection to ensure your transaction safety.",
-        "q7": "Why do you recommend the Premium Plan?",
-        "a7": "We recommend the Premium Plan ($19.99) for regular users of our unblur image service.",
-        "q8": "Do I need to renew my plan periodically?",
-        "a8": "No. Our image unblurring service uses a one-time payment model where you pay once to receive your credits. These credits never expire and can be used until they're depleted, with no subscription or renewal needed. Once you've used all your credits for unblurring images, you can choose to purchase more at any time."
-    }
-    },
-    "faq": {
-      "header":"Unblur Image Online FAQ",
-      "q1": "What is the Unblur Image tool?",
-      "a1": "The Unblur Image tool is an advanced AI-powered utility that helps users enhance and sharpen blurry images. It's designed to improve image quality regardless of the cause - whether from camera shake, focus issues, or low resolution.",
-      "q2": "How does the Unblur Image tool work?",
-      "a2": "Our Unblur Image tool uses advanced AI algorithms to analyze and process your images. Simply upload your blurry image, wait a few seconds for the AI processing, and download your enhanced, sharper result. The tool maintains the original image quality while improving clarity.",
-      "q3": "What are the main features of the Unblur Image tool?",
-      "a3": "The Unblur Image tool offers several key features: AI-powered image enhancement, Support for multiple image formats (JPG/JPEG, PNG, WEBP, BMP), Quick processing time, Free trial usage, No quality loss in output images, and User-friendly interface.",
-      "q4": "Are there any file size limitations for the unblur image tool?",
-      "a4": "Our free unblur image service supports files up to 10MB, suitable for most personal photos and social media content. For professional users who need to unblur larger images or process images in batch, our premium plans offer expanded file size limits up to 50MB per image. Each plan includes our advanced unblur image technology with additional professional features.",
-      "q5": "Do you store the processed images?",
-      "a5": "To protect your privacy, images are only temporarily stored during processing and are immediately deleted afterward. We do not keep any copies of your images.",
-      "q6": "What if the results aren't satisfactory?",
-      "a6": "Results may vary depending on factors such as original image quality, blur severity, resolution, and blur type. If you're not satisfied with the results, please contact us for assistance.",
-      "q7": "How can I get support?",
-      "a7": "You can reach our support team through the contact form. We aim to respond to all inquiries within 24 hours.",
-      "q8": "Do you offer refunds?",
-      "a8": "Yes, if you're not satisfied with our service, please contact us within 7 days of purchase for a refund.",
-      "q9": "What happens after I use up my trial credits?",
-      "a9": "Once you've used your trial credits, you can continue using the service by purchasing one of our premium plans. Visit our pricing page for more information.",
-      "q10": "Which image formats are supported?",
-      "a10": "We support all major image formats including JPG/JPEG, PNG, WEBP, and BMP files."
-    }
-  },
+ 
   "avif_to_jpg": {
     "title": "AVIF to JPG - Convert AVIF to JPG Online for Free",
     "h1": "Free AVIF to JPG Converter - Convert AVIF to JPG Online Instantly",
