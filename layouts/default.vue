@@ -8,6 +8,7 @@
       </main>
       <!-- <Footer class="py-4" /> -->
       <GradientFooter />
+      <CookieConsent />
     </div>
   </div>
 </template>
