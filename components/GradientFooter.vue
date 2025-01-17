@@ -1,35 +1,18 @@
 <template>
-  <footer class="bg-white border-t border-gray-200">
-    <div class="max-w-7xl mx-auto px-4 py-12">
-      <!-- 主要内容区域 -->
-      <div class="flex flex-wrap -mx-4">
-        <!-- Products -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-          <h3 class="text-lg font-semibold text-gray-900 mb-6">
+  <footer class="w-full py-8 px-4 mt-auto bg-white">
+    <div class="max-w-7xl mx-auto">
+      <!-- 三栏布局区域 -->
+      <div class="flex flex-col md:flex-row justify-between">
+        <!-- Quick Links (原 Products) -->
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
             {{ $t('footer.products.title') }}
           </h3>
-          <ul class="space-y-3">
+          <ul class="flex flex-col space-y-2">
             <li v-for="(link, index) in localizedProducts" :key="index">
               <NuxtLink
                 :to="link.url"
-                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 block"
-              >
-                {{ link.title }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
-        
-        <!-- Company -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-          <h3 class="text-lg font-semibold text-gray-900 mb-6">
-            {{ $t('footer.company.title') }}
-          </h3>
-          <ul class="space-y-3">
-            <li v-for="(link, index) in localizedCompany" :key="index">
-              <NuxtLink
-                :to="link.url"
-                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 block"
+                class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
               >
                 {{ link.title }}
               </NuxtLink>
@@ -37,18 +20,33 @@
           </ul>
         </div>
 
-        
-        
+        <!-- Legal (原 Company) -->
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            {{ $t('footer.company.title') }}
+          </h3>
+          <ul class="flex flex-col space-y-2">
+            <li v-for="(link, index) in localizedCompany" :key="index">
+              <NuxtLink
+                :to="link.url"
+                class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              >
+                {{ link.title }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+
         <!-- Friend Links -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-          <h3 class="text-lg font-semibold text-gray-900 mb-6">
+        <div class="mb-6 md:mb-0">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
             {{ $t('footer.friendLinks.title') }}
           </h3>
-          <ul class="space-y-3">
+          <ul class="flex flex-col space-y-2">
             <li v-for="(link, index) in localizedFriendLinks" :key="index">
-              <a
-                :href="link.url"
-                class="text-gray-600 hover:text-blue-600 transition-colors duration-200 inline-flex items-center"
+              
+               <a :href="link.url"
+                class="text-gray-600 hover:text-gray-900 transition-colors duration-200 inline-flex items-center"
                 :rel="link.noref ? 'nofollow noreferrer' : ''"
                 target="_blank"
               >
@@ -66,10 +64,10 @@
           </ul>
         </div>
       </div>
-      
+
       <!-- Copyright -->
-      <div class="mt-12 pt-8 border-t border-gray-200">
-        <p class="text-center text-gray-500 text-sm">
+      <div class="mt-8 pt-8 border-t border-gray-200">
+        <p class="text-center text-gray-600">
           © {{ new Date().getFullYear() }} {{ domain }} {{ $t('footer.copyright') }}
         </p>
       </div>
@@ -103,5 +101,17 @@ const localizedFriendLinks = computed(() => [
   }
 ])
 
-const domain = useRuntimeConfig().public.domain.substring(8);
+const domain = useRuntimeConfig().public.domain.substring(8)
+
+// 确保组件正确导出
+defineExpose({
+  // 如果需要暴露任何属性或方法
+})
+</script>
+
+<script>
+// 确保组件有一个名字
+export default {
+  name: 'GradientFooter'
+}
 </script>
